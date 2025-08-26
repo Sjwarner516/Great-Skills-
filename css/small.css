@@ -4,3 +4,91 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*  apply a natural box layout model to all elements  */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body {
+   font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+    margin: 1rem 2%;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: .5rem 2vw;
+    align-items: center;
+}
+
+header h1 {font-size: 1rem; padding-left: .5rem;}
+
+section.who {
+    display: flex; justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+section.who p {
+    margin: 0;
+}
+
+section.about {
+    display: flex;
+    background-color: rgb(74, 74, 187);
+    padding: .5rem; 
+}
+
+section.about p {
+    margin: 0;
+}
+
+section.about ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.about div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: .5rem;
+    width: 100%;
+}
+
+section.about div ul{
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: .5rem;
+    list-style-position: inside;
+    box-shadow: inset 0px 0px 10px #777;
+}
+
+h2 { 
+    font-size: 1rem;
+}
+
+.assignments {
+    padding: 1rem 2%;
+}
+
+.assignments a {
+    display: block;
+    padding: .8rem;
+    margin-bottom: .5rem;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    background-color: #eee;
+    color: rgb(74, 74, 187);
+    text-decoration: none;
+}
+
+.assignments a:hover {
+    background-color: #ddd;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}

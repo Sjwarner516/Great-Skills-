@@ -1,4 +1,22 @@
 @media only screen and (min-width: 35rem) {
-
+    header h1 {font-size: 2rem;}
     
-} /* end media query*/
+/* end media query*/
+
+section.stack figure {
+    flex-basis: 25%;
+}
+section.who {
+    font-size: 1.6rem;
+}
+h2 {font-size: 1.5rem;}
+
+.assignments{
+    column-count: 2;
+}
+
+.assignemnts a:hover {
+    background-color: #ddd;
+}
+/* end media query*/
+}
