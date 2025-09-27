@@ -1,0 +1,33 @@
+/* weight 200 - 900 */
+body {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200 bold;
+  font-style: normal;
+  background-image: url(OIP.webp);
+  background-size: cover;
+  text-align: center;
+  color: antiquewhite;
+  
+}
+
+
+h1 {
+font-weight: 500;
+color: goldenrod;
+}
+
+
+
+button {
+   color: #016f32;
+   width: 150px;
+   background: goldenrod; 
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-weight: bold;
+   border: none;
+   border-radius: 2px;
+   margin-bottom: 2px;
+   margin-top: 2px;
+}
