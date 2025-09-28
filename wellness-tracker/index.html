@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Pet!</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="newProfile">
+        <p><h1>Create your pet</h1></p>
+        <form>
+            <label>
+                First: <input type="text" name="first" required>
+            </label>
+            <label>
+                Last: <input type="text" name="last" required>
+            </label>
+            <label>Build your Pet!<select id="physical">
+<option value="https://openmoji.org/data/color/svg/1F408.svg">Cat</option>
+<option value="https://openmoji.org/data/color/svg/1F436.svg">Dog</option>
+<option value="https://openmoji.org/data/color/svg/1F9A4.svg">Bird</option>
+<option value="https://openmoji.org/data/color/svg/1F420.svg">Fish</option>
+
+            </select></label>
+            <input type="submit" value="Save Choices" id="saveProfile">
+        </form>
+
+
+    </div>
+
+    <div id="myProfile">
+        <section>
+            <img src="" id="emoji">
+            <p>
+                <span id="first"></span><span id="last"></span> is a <span id="emotion"></span>
+            </p>
+        </section>
+        <button id="delProfile">Delete Profile</button>
+</div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

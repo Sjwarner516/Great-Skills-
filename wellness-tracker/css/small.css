@@ -1,0 +1,116 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+label {display: block;}
+
+/* switches */
+
+.hideMe {display: none;}
+.showMe {display: block;}
+
+/* new profile styling */
+#newProfile {
+text-align: center;
+background-color: aliceblue;
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#newProfile h1 {
+   
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+
+#newProfile label {
+text-align: center;
+
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+#newProfile input, #newProfile select {
+    background-color: pink;
+    margin: 5px;
+   
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#newProfile input[type="submit"] {
+   
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: aliceblue;
+  text-decoration-color: black;
+  background-color: darkgrey;
+
+
+}
+
+
+/* current profile styling */
+
+#myProfile {
+text-align: center;
+
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+#myProfile img {
+max-width: 200px;
+}
+
+#myProfile p {
+text-align: center;
+
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+#myProfile button {
+align-items: center;
+text-decoration-style: wavy;
+
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+#myProfile section {
+    text-align: center;
+    margin: 10px;
+    background-color: bisque;
+}
+
+#delProfile {
+    align-items: center;
+}
