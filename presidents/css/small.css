@@ -1,0 +1,48 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+text-align: center;
+
+}
+
+#cards figure {
+    margin: 0 2%;
+    padding: 0;
+    flex-basis: 96%;
+}
+
+
+#cards img {
+    width: 100%;
+    border-style: double;
+    border-color: deeppink;
+}
+
+figure figcaption {
+    color: blueviolet;
+    text-align: center;
+}
+
+figure div {
+    color: palevioletred;
+    padding: 4px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
