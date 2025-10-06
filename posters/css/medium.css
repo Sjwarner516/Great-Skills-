@@ -1,0 +1,21 @@
+@media only screen and (min-width: 35rem) {
+
+
+#filmInfo figure {
+  display: flex;
+  flex-direction: column;
+  background: darkcyan;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  text-align: center;
+   font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  object-fit: cover;
+
+  
+}
+    
+} /* end media query*/
