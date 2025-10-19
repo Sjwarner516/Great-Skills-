@@ -1,0 +1,11 @@
+@media only screen and (min-width: 60rem) {
+body {
+    display: grid;
+    grid-template-columns: 160px auto ;
+}
+
+nav {
+    display: block;
+}
+h1 {grid-column: 1 / 2;}
+} /* end media query*/
