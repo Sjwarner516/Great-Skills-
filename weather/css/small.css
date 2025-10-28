@@ -1,0 +1,69 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body  { 
+text-align: center;
+background-color: #ddfff7;
+ 
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 42px;
+    background-color: #623cea;
+    color: white;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+header span:nth-child(2) {
+    padding: .5rem;
+}
+
+#town {
+    padding: .5rem;
+}
+
+aside {
+    display: none;
+}
+
+aside.show {
+    display: block;
+    position: absolute;
+    top: 49px;
+    height: 400px;
+    left: 10px;
+    right: 10px;
+    padding: 1rem 2vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+aside p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #623cea;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
