@@ -1,0 +1,78 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: "Sigmar One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+background: linear-gradient(0deg, #facfce, #008f8c);
+}
+
+header h1 {
+    margin: 0; font-size: 3rem;
+}
+
+nav {
+    background-color: #facfce;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav button {
+    flex-basis: 48%;
+    margin: .5rem 1%;
+    padding: 1rem 0;
+    border: 1px solid #023535;
+    border-radius: 10px;
+    background: #FACFCE;
+}
+
+#saleItems {
+    margin: .5rem 2%;
+    border-radius: 11%;
+    
+}
+
+#saleItems img {
+    width: 100%;
+    display: block;
+}
+
+#saleItems h2 {
+    margin: 0;
+    padding: .5rem;
+    background-color: #008f8c;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#saleItems ul {
+    margin: 0px;
+    padding: 0 0 .5rem 1rem;
+    margin-left: 20px;
+    color: #FACFCE;
+}
+
+#saleItems p {
+padding: .1rem 2%;
+}
+
+footer {
+    background: linear-gradient(0deg, #facfce, #008f8c);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+li::marker {
+    content: "\25b6";
+
+}
